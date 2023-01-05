@@ -2,3 +2,15 @@ Create TABLE PAISES(
     paises  NUMERIC(3) PRIMARY KEY,
     pais    VARCHAR(25) NOT NULL UNIQUE
 );
+
+CREATE TABLE PUESTOS(
+    puesto NUMERIC(3) PRIMARY KEY,
+    puntos VARCHAR(25) NOT NULL
+                       UNIQUE
+);
+
+CREATE TABLE COMPETICIONES(
+    id_comp NUMERIC(3) PRIMARY KEY,
+    competicion VARCHAR(25) NOT NULL UNIQUE,
+    id_pais NUMERIC(3) REFERENCES PAISES
+);
