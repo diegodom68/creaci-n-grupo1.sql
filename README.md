@@ -5,7 +5,7 @@
 3. Conexión
 4. Conclusiones
 
-## Instalación
+## 1.Instalación
 Para comenzar con el proyecto debemos instalar MySQL y configurarlo con DataGrip. Para la 
 instación iremos a la pagina de MySQL, donde descargaremos un archivo msi que es un instalador 
 por pasos y nos lo instalará automaticamente. También configuraremos el usuario root al que 
@@ -28,4 +28,14 @@ eso si nos pedira que sea una contraseña de minimo 8 caracteres y que sea de ba
 Una vez finalizada la instalación de MySQL habra que conectarlo con DataGrip para poder trabajar
 desde allí. Pero eso se explicará más adelante en el apartado **_Conexión_**.
 
+## 2.DISEÑO
+Nuestro base de datos a realizar es sobre la DIAMOND LEAGUE de atletismo. Hemos 
+creido oprtuno hacer 7 tablas para optimizar y recoger los datos de esta liga. Adjunto foto:
+![](../Capturas%20MD/Whats.jpg)
+Como podemos ver hemos hecho una tabla paises para diferenciar tento el origen de los 
+corredores tanto las sedes de las carreras. Tambien una tabla competiciones para saber los 
+tipos de competiciones que hay y que se van a guardar.
+La tablas paises y sexos estaran referenciadas en la tabla competiciones y la tabla corredores, y las tablas competiciones 
+y corredores estaran referenciadas en las tablas del ranking, que habrá dos tablas de ranking 
+una de hombres y otra de mujeres, ya que las competiciones no son mixtas.
 
