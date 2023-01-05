@@ -1,0 +1,4 @@
+Create TABLE PAISES(
+    paises  NUMERIC(3) PRIMARY KEY,
+    pais    VARCHAR(25) NOT NULL UNIQUE
+);
