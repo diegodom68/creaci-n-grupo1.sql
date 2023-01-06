@@ -39,3 +39,10 @@ La tablas paises y sexos estaran referenciadas en la tabla competiciones y la ta
 y corredores estaran referenciadas en las tablas del ranking, que habrá dos tablas de ranking 
 una de hombres y otra de mujeres, ya que las competiciones no son mixtas.
 
+## 3.CONEXIÓN
+Nosotros para poder conectarnos nos a tocado iniciar sesion en git hub a todos y que uno crease el "grupo" y los demás
+se uniesen allí de manera que todo el mundo viera lo que a subido todo el mundo, es decir, cada uno podia subir lo que quisiese
+pero teniendo en cuenta que tambien lo iban a ver los demas participantes de ese grupo. Y esa parte es la conexion a traves de 
+GitHub que es la mas sencilla. Ahora toca conectarse a DataGrip que a sido un poco mas complejo.
+
+
